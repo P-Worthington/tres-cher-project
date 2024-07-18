@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*nav bar styling*/
+
+#scroll-header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: rgba(43, 43, 43, 0.7);
+}
+
+#scroll-header a {
+    font-family: "Cinzel", serif;
+    color: whitesmoke;
+    letter-spacing: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#hero-bg {
+    position: relative;
+    background-image: url(../images/hero-img.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 15px;
+    margin-top: -60px;
+}
+
+#hero-bg a, #hero-bg i {
+    color: whitesmoke;
+}
+
+#hero-bg i {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+#store-items {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/*title*/
+
+.title {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title div {
+    font-family: "Cinzel", serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+/*split*/
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+/*shop shoes and accesories*/
+
+.shop-shoes-bg {
+    background-image: url(../images/shop-shoes.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+
+/* shop accessories*/
+
+.shop-accessories-bg {
+    background-image: url(../images/shop-accessories.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+
+.division {
+    height: 15px;
+    background-color: white;
+}
+
+/*shop mens*/
+
+.shop-mens-bg {
+    background-image: url(../images/shop-mens.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 15px;
+    position: relative;
+}
+
+/*info*/
+.info {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: whitesmoke;
+    font-family: "Cinzel", serif;
+    letter-spacing: 5px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+.info-title {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.info-link {
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-title h2 {
+    font-family: "Baskervville SC", serif;
+}
+
+.info-link h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+/*featured*/
+.featured-title {
+    margin-top: 15PX;
+    margin-bottom: 10px;
+}
+
+.featured-title h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+/*carousel*/
+
+.carousel-item {
+    height: 60vh;
+    background-color: #000;
+    position: relative;
+}
+
+.carousel-content {
+    position: absolute;
+    z-index: 98;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+}
+
+.slide-1 {
+    background-image: url(../images/carousel-images/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.slide-2 {
+    background-image: url(../images/carousel-images/slide-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.slide-3 {
+    background-image: url(../images/carousel-images/slide-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.carousel-content h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.carousel-content p {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+}
+
+.carousel-content a {
+    color: black;
+    letter-spacing: 1px;
+}
+
+/*footer*/
+footer {
+    background-color: #000;
+    height: 900px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.footer-brand {
+    position: absolute;
+    color: whitesmoke;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 100px;
+    font-family: "Cinzel", serif;
+}
+
+@media screen and (min-width: 965px) {
+    .split {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+    }
+
+    .shop-shoes-bg {
+        width: 50%;
+    }
+
+    .shop-accessories-bg {
+        width: 50%;
+    }
+
+    .division {
+        height: 60vh;
+        width: 15px;
+    }
+  }

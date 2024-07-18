@@ -1,0 +1,181 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <header id="scroll-header">        
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <a class="navbar-brand" href="#">TC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa-solid fa-bag-shopping"></i> <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-regular fa-user"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside"><i class="fa-solid fa-bars"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div id="hero-bg">
+
+        <div class="title">
+            <div>T</div>
+            <div>R</div>
+            <div>È</div>
+            <div>S</div>
+            <div></div>
+            <div>C</div>
+            <div>H</div>
+            <div>E</div>
+            <div>R</div>
+        </div>
+
+        <div class="info">
+            <div class="info-title">
+                <h2>fall winter 2024</h2>
+            </div>
+
+            <div class="info-link">
+                <h4>Explore Women's Collection</h4>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="split">
+        <div class="shop-shoes-bg">
+            <div class="info">
+                <div class="info-title">
+                    <h2>shoes</h2>
+                </div>
+
+                <div class="info-link">
+                    <h4>Shop Shoes</h4>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="division">
+        </div>
+
+        <div class="shop-accessories-bg">
+            <div class="info">
+                <div class="info-title">
+                    <h2>accessories</h2>
+                </div>
+
+                <div class="info-link">
+                    <h4>Shop Accessories</h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-mens-bg">
+        <div class="info">
+            <div class="info-title">
+                <h2>mens</h2>
+            </div>
+
+            <div class="info-link">
+                <h4>Shop Mens</h4>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="featured">
+        <div class="featured-title">
+            <h2>FEATURED</h2>
+        </div>
+        <div id="homeCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#homeCarousel" data-slide-to="1"></li>
+                <li data-target="#homeCarousel" data-slide-to="2"></li>
+            </ol>
+            
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="slide-1">
+                        <div class="container carousel-content">
+                            <h2>Discover Fall Winter 2024</h2>
+                            <p>carlos de santa presents his take on fall fashion.</p>
+                            <a href="">+ Discover More</a>
+                        </div>
+                    </div>
+                </div>  
+            
+                <div class="carousel-item">
+                    <div class="slide-2">
+                        <div class="container carousel-content">
+                            <h2>This Years Top Accessories</h2>
+                            <p>most popular accessories from stephanie dupont.</p>
+                            <a href="">+ Discover More</a>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="carousel-item">
+                    <div class="slide-3">
+                        <div class="container carousel-content">
+                            <h2>Winter Fashion Tips</h2>
+                            <p>top tips from bruno teton to update your wardrobe this winter.</p>
+                            <a href="">+ Discover More</a>
+                        </div>
+                    </div>
+                </div> 
+
+                <a href="#homeCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="sr-only">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+
+                <a href="#homeCarousel" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="sr-only">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        footer temp
+        sign up for updates
+        contact us 
+        email unsuscribe
+        site map
+        social media
+
+        <div class="footer-brand">
+            <div>T</div>
+            <div>R</div>
+            <div>È</div>
+            <div>S</div>
+            <div></div>
+            <div>C</div>
+            <div>H</div>
+            <div>E</div>
+            <div>R</div>
+        </div>
+    </footer>
+
+
+    <!--Font Aweomse -->
+    <script src="https://kit.fontawesome.com/83eae7a1c8.js" crossorigin="anonymous"></script>
+    <!--Link Bootstrap js-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--Link own js-->
+    <script src="assets/script/script.js"></script>
+{% endblock %}
