@@ -65,6 +65,7 @@ ul {
 
 /*cart*/
 #cart-lg-screen {
+    display: none;
     position: sticky;
     top: 55px;
     right: -10px;
