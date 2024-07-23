@@ -25,13 +25,13 @@ $(document).ready(function(){
         $("#search-lg-screen").slideUp(0);
         $("#login-lg-screen").slideUp(0);
         $("#cart-lg-screen").slideUp(0);
-        $("#menu-lg-screen").slideToggle(300);
+        $("#menu-lg-screen").slideToggle(200);
     });
 
-    //clearMouseOut("#search-lg-screen")
-    //clearMouseOut("#login-lg-screen")
-    //clearMouseOut("#cart-lg-screen")
-    //clearMouseOut("#menu-lg-screen")
+    clearMouseOut("#search-lg-screen")
+    clearMouseOut("#login-lg-screen")
+    clearMouseOut("#cart-lg-screen")
+    clearMouseOut("#menu-lg-screen")
 });
 
 function clearMouseOut (id) {
