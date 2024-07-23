@@ -1,23 +1,30 @@
 //slide functions 
 $(document).ready(function(){
     $("#cart-btn").click(function(){
-        dropDownSlideUp();
+        $("#login-lg-screen").slideUp(0);
+        $("#search-lg-screen").slideUp(0);
+        $("#menu-lg-screen").slideUp(0);
         $("#cart-lg-screen").slideToggle();
     });
 
     $("#login-btn").click(function(){
-        dropDownSlideUp();
+        $("#search-lg-screen").slideUp(0);
+        $("#menu-lg-screen").slideUp(0);
+        $("#cart-lg-screen").slideUp(0);
         $("#login-lg-screen").slideToggle();
     });
 
     $("#search-btn").click(function(){
-        dropDownSlideUp();
+        $("#login-lg-screen").slideUp(0);
+        $("#menu-lg-screen").slideUp(0);
+        $("#cart-lg-screen").slideUp(0);
         $("#search-lg-screen").slideToggle(300);
+    });
+
+    $("#menu-btn").click(function(){
+        $("#login-lg-screen").slideUp(0);
+        $("#cart-lg-screen").slideUp(0);
+        $("#menu-lg-screen").slideToggle(300);
     });
 });
 
-function dropDownSlideUp () {
-    $("#login-lg-screen").slideUp(0);
-    $("#cart-lg-screen").slideUp(0);
-    $("#search-lg-screen").slideUp(0);
-}
