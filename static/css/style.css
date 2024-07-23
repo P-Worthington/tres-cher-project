@@ -51,6 +51,10 @@ i {
 
 /*navbar popups*/
 
+.container > h5 {
+    margin-top: 20px;
+}
+
 /*triangle styling*/
 .triangle {
     width: 0px;
@@ -145,6 +149,10 @@ i {
     margin-bottom: 20px;
 }
 
+.form-input {
+    height: 30px;
+}
+
 .search .fa-search{
     position: absolute;
     top:20px;
@@ -186,7 +194,7 @@ i {
     background-color: rgba(0, 0, 0, 0.95);
     width: 100%;
     color: whitesmoke;
-    height: 100vh;
+    height: 50vh;
 }
 
 

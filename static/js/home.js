@@ -27,5 +27,19 @@ $(document).ready(function(){
         $("#cart-lg-screen").slideUp(0);
         $("#menu-lg-screen").slideToggle(300);
     });
+
+    clearMouseOut("#search-lg-screen")
+    clearMouseOut("#login-lg-screen")
+    clearMouseOut("#cart-lg-screen")
+    clearMouseOut("#menu-lg-screen")
 });
 
+function clearMouseOut (id) {
+    $(document).mouseup(function (e) {
+        if ($(e.target).
+            closest(id).
+            length=== 0) {
+            $(id).hide();
+        }
+    });
+}
