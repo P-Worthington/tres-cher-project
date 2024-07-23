@@ -4,14 +4,14 @@ $(document).ready(function(){
         $("#login-lg-screen").slideUp(0);
         $("#search-lg-screen").slideUp(0);
         $("#menu-lg-screen").slideUp(0);
-        $("#cart-lg-screen").slideToggle();
+        $("#cart-lg-screen").slideToggle(300);
     });
 
     $("#login-btn").click(function(){
         $("#search-lg-screen").slideUp(0);
         $("#menu-lg-screen").slideUp(0);
         $("#cart-lg-screen").slideUp(0);
-        $("#login-lg-screen").slideToggle();
+        $("#login-lg-screen").slideToggle(300);
     });
 
     $("#search-btn").click(function(){
@@ -28,10 +28,10 @@ $(document).ready(function(){
         $("#menu-lg-screen").slideToggle(300);
     });
 
-    clearMouseOut("#search-lg-screen")
-    clearMouseOut("#login-lg-screen")
-    clearMouseOut("#cart-lg-screen")
-    clearMouseOut("#menu-lg-screen")
+    //clearMouseOut("#search-lg-screen")
+    //clearMouseOut("#login-lg-screen")
+    //clearMouseOut("#cart-lg-screen")
+    //clearMouseOut("#menu-lg-screen")
 });
 
 function clearMouseOut (id) {
