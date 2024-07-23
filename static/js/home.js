@@ -22,6 +22,7 @@ $(document).ready(function(){
     });
 
     $("#menu-btn").click(function(){
+        $("#search-lg-screen").slideUp(0);
         $("#login-lg-screen").slideUp(0);
         $("#cart-lg-screen").slideUp(0);
         $("#menu-lg-screen").slideToggle(300);

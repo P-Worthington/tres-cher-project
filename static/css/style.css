@@ -75,6 +75,12 @@ ul {
     top: 45px;
 }
 
+.lg-menu-triangle {
+    position: fixed;
+    right: 30px;
+    top: 45px;
+}
+
 /*cart*/
 #cart-lg-screen {
     display: none;
@@ -86,6 +92,7 @@ ul {
     background-color: rgba(0, 0, 0, 0.9);
     width: 300px;
     color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
 }
 
 #cart-login-buttons {
@@ -111,6 +118,7 @@ ul {
     background-color: rgba(0, 0, 0, 0.9);
     width: 300px;
     color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
 }
 
 /*search*/
@@ -125,16 +133,15 @@ ul {
     width: 300px;
     color: whitesmoke;
     height: fit-content;
+    font-family: "Montserrat", sans-serif;
 }
 
 .search{
-
     position: relative;
     margin-bottom: 20px;
 }
 
 .search .fa-search{
-
     position: absolute;
     top:20px;
     left: 20px;
@@ -143,8 +150,7 @@ ul {
 }
 
 .search span{
-
-        position: absolute;
+    position: absolute;
     right: 17px;
     top: 13px;
     padding: 2px;
@@ -163,6 +169,40 @@ ul {
 
     box-shadow: none;
     border:none;
+}
+
+/*menu*/
+#menu-lg-screen {
+    display: none;
+    position: sticky;
+    top: 55px;
+    right: -10px;
+    float: right;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    color: whitesmoke;
+    height: 100vh;
+}
+
+
+.container-fluid > h6 {
+    letter-spacing: 3px;
+    font-family: "Cinzel", serif;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+h6 > span {
+    position: fixed;
+    right: 20px;
+}
+
+.container-fluid > p {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /*title*/
