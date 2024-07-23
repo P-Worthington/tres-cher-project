@@ -6,4 +6,12 @@ $(document).ready(function(){
             console.log("Hello")
         }
     });
-  });
+
+    $("#login-btn").click(function(){
+        $("#login-lg-screen").slideToggle();
+        if($("#login-lg-screen:visible")) {
+            console.log("Hello")
+        }
+    });
+
+});
