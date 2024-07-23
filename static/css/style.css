@@ -21,6 +21,10 @@ ul {
     list-style-type: none;
 }
 
+i {
+    cursor: pointer;
+}
+
 #hero-bg {
     position: relative;
     background-image: url(../images/hero-img.jpg);
